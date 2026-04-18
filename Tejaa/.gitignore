@@ -1,0 +1,16 @@
+# Don't upload large model files
+sd-naruto-model/
+*.ckpt
+*.pt
+*.pth
+*.bin
+*.safetensors
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# System
+.DS_Store
+Thumbs.db
