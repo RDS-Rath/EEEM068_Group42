@@ -1,10 +1,31 @@
-- a face with 5 o Clock Shadow, Male, Mouth Slightly Open, No Beard, Young
-- a face with 5 o Clock Shadow, Bags Under Eyes, Bangs, Big Nose, Brown Hair, Male, Pointy Nose, Sideburns, Straight Hair, Young
-- a face with Arched Eyebrows, Attractive, Bangs, Big Lips, Black Hair, Heavy Makeup, High Cheekbones, Mouth Slightly Open, No Beard, Smiling, Straight Hair, Wearing Lipstick, Wearing Necklace, Young
-- a face with Arched Eyebrows, Attractive, Big Lips, Blond Hair, Heavy Makeup, No Beard, Oval Face, Pale Skin, Pointy Nose, Straight Hair, Wearing Lipstick, Young
-- a face with Attractive, Bags Under Eyes, Big Lips, Brown Hair, Heavy Makeup, High Cheekbones, Mouth Slightly Open, No Beard, Smiling, Wearing Lipstick, Young
-- a face with Attractive, Black Hair, Bushy Eyebrows, Heavy Makeup, High Cheekbones, No Beard, Oval Face, Wearing Lipstick, Young
-- a face with Bags Under Eyes, Big Nose, Brown Hair, Male, No Beard, Pointy Nose, Straight Hair
-- a face with Attractive, Bangs, Black Hair, Heavy Makeup, Mouth Slightly Open, No Beard, Pale Skin, Wearing Earrings, Wearing Lipstick, Young
-- a face with Arched Eyebrows, Attractive, Bangs, Heavy Makeup, High Cheekbones, Mouth Slightly Open, No Beard, Pointy Nose, Smiling, Wavy Hair, Wearing Earrings, Wearing Lipstick, Wearing Necklace, Young
-- a face with Arched Eyebrows, Attractive, Big Lips, Blond Hair, Heavy Makeup, High Cheekbones, Mouth Slightly Open, No Beard, Pointy Nose, Smiling, Wearing Earrings, Wearing Lipstick
+Total prompts: 10
+
+Prompt 1:
+a face with 5_o_Clock_Shadow, Male, Mouth_Slightly_Open, Young
+
+Prompt 2:
+a face with Bags_Under_Eyes, Brown_Hair, Big_Nose, Male, Straight_Hair
+
+Prompt 3:
+a face with Black_Hair, Bangs, Smiling, Heavy_Makeup, Wearing_Lipstick
+
+Prompt 4:
+a face with Blond_Hair, Big_Lips, Pale_Skin, Straight_Hair
+
+Prompt 5:
+a face with Brown_Hair, High_Cheekbones, Smiling, Wearing_Lipstick
+
+Prompt 6:
+a face with Black_Hair, Bushy_Eyebrows, Oval_Face, Heavy_Makeup
+
+Prompt 7:
+a face with Big_Nose, Brown_Hair, Male, Pointy_Nose
+
+Prompt 8:
+a face with Bangs, Black_Hair, Pale_Skin, Wearing_Earrings
+
+Prompt 9:
+a face with Wavy_Hair, Smiling, High_Cheekbones, Wearing_Necklace
+
+Prompt 10:
+a face with Blond_Hair, Big_Lips, Smiling, Wearing_Earrings
