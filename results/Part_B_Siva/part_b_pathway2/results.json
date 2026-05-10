@@ -1,0 +1,19 @@
+{
+  "part": "B - Pathway 2 (Pretrained + Fine-tuned SD v1.5)",
+  "timestamp": "2026-05-10T10:05:28.960017",
+  "model": "runwayml/stable-diffusion-v1-5",
+  "dataset": "CelebAMask-HQ",
+  "train_images": 2700,
+  "test_images": 300,
+  "finetune_steps": 200,
+  "finetune_lr": 5e-06,
+  "start_loss": 0.740522027015686,
+  "final_loss": NaN,
+  "num_generated": 300,
+  "inference_steps": 30,
+  "guidance_scale": 7.5,
+  "image_size": 256,
+  "fid_pretrained": 256.4997131431969,
+  "fid_finetuned": 577.2385198932304,
+  "seed": 42
+}
