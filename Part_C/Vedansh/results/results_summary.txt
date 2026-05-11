@@ -1,0 +1,25 @@
+=======================================================
+  PART C2 — RESULTS SUMMARY
+=======================================================
+  Method     : DreamBooth fine-tuning
+  Base model : runwayml/stable-diffusion-v1-5
+  Steps      : 400
+  Identities : ['elon_musk', 'emma_watson', 'tom_holland']
+
+  FID:
+    elon_musk_1shot               : 175.66
+    elon_musk_5shot               : 175.66
+    emma_watson_1shot             : 165.80
+    emma_watson_5shot             : 165.80
+    tom_holland_1shot             : 171.49
+    tom_holland_5shot             : 171.49
+
+  FRS:
+    elon_musk_1shot               : 0.551 +/- 0.212
+    elon_musk_5shot               : 0.551 +/- 0.212
+    emma_watson_1shot             : 0.628 +/- 0.127
+    emma_watson_5shot             : 0.628 +/- 0.127
+    tom_holland_1shot             : 0.486 +/- 0.156
+    tom_holland_5shot             : 0.486 +/- 0.156
+=======================================================
+partC2_outputs.zip ready in Output panel.
