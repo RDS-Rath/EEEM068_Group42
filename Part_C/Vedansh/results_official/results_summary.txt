@@ -1,0 +1,26 @@
+============================================================
+PART C2 — DreamBooth Results (Official HuggingFace Script)
+============================================================
+Method: DreamBooth (train_dreambooth.py from diffusers v0.29.2)
+Base model: runwayml/stable-diffusion-v1-5
+Identities: CelebA-HQ IDs 142, 320, 589
+Settings: 1-shot and 5-shot
+Steps: 250 | LR: 2e-5 | Resolution: 256 | FP16 | Seed: 42
+Prior preservation: weight=1.0, 200 class images
+Memory: gradient checkpointing + 8-bit Adam
+
+Setting              FID      FRS Mean   FRS Std
+------------------------------------------------------------
+ID142 1shot        299.73     0.3773     0.0267
+ID142 5shot        140.49     0.3096     0.1616
+ID320 1shot        323.12     0.4869     0.0251
+ID320 5shot        139.21     0.3481     0.0968
+ID589 1shot        307.05     0.4500     0.0150
+ID589 5shot        127.82     0.1494     0.1815
+============================================================
+
+Key Observations:
+- 5-shot consistently achieves ~2x better FID than 1-shot
+- 1-shot shows higher FRS (identity similarity) due to overfitting
+- Best FID: ID589 5-shot (127.82)
+- Best FRS: ID320 1-shot (0.487)

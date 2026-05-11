@@ -1,0 +1,59 @@
+{
+  "method": "DreamBooth (official HuggingFace train_dreambooth.py)",
+  "base_model": "runwayml/stable-diffusion-v1-5",
+  "identities": [
+    "CelebA-HQ 142",
+    "CelebA-HQ 320",
+    "CelebA-HQ 589"
+  ],
+  "hyperparameters": {
+    "resolution": 256,
+    "train_batch_size": 1,
+    "learning_rate": 2e-05,
+    "lr_scheduler": "constant",
+    "max_train_steps": 250,
+    "mixed_precision": "fp16",
+    "seed": 42,
+    "prior_preservation": true,
+    "prior_loss_weight": 1.0,
+    "gradient_checkpointing": true,
+    "use_8bit_adam": true,
+    "num_class_images": 200
+  },
+  "fid_scores": {
+    "ID142_1shot": 299.73,
+    "ID142_5shot": 140.49,
+    "ID320_1shot": 323.12,
+    "ID320_5shot": 139.21,
+    "ID589_1shot": 307.05,
+    "ID589_5shot": 127.82
+  },
+  "frs_scores": {
+    "ID142_1shot": {
+      "mean": 0.3773,
+      "std": 0.0267
+    },
+    "ID142_5shot": {
+      "mean": 0.3096,
+      "std": 0.1616
+    },
+    "ID320_1shot": {
+      "mean": 0.4869,
+      "std": 0.0251
+    },
+    "ID320_5shot": {
+      "mean": 0.3481,
+      "std": 0.0968
+    },
+    "ID589_1shot": {
+      "mean": 0.45,
+      "std": 0.015
+    },
+    "ID589_5shot": {
+      "mean": 0.1494,
+      "std": 0.1815
+    }
+  },
+  "images_generated_per_setting": 300,
+  "total_images": 1800
+}
