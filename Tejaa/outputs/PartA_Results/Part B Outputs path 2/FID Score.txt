@@ -1,0 +1,2 @@
+FID Score(5 Prompts): 65.0152 
+FID Score(10 Prompts): 78.8785 
